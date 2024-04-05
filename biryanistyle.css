@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 250, 243);
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    font-family: "Niconne", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 25px;
+    box-shadow: 1px 1px 10px #d1cdcd;
+    padding: 0px 10px;
+}
+
+.nav-link {
+    color: rgb(197, 2, 116) !important;
+}
+.navbar ul li {
+    padding: 0 10px;
+}
+.navbar ul li:hover {
+    text-decoration: underline solid rgb(197, 2, 116);
+}
+.navbar .signin {
+    background: rgb(241,122,9);
+    background: linear-gradient(90deg, rgba(241,122,9,1) 1%, rgba(242,74,2,1) 51%, rgba(242,43,8,1) 100%);
+    width: 80px;
+    color: white;
+}
+
+
+/* template */
+section
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#template {
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)), url(logo/biryani3.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#template h2 {
+    font-size: 110px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Righteous", sans-serif;
+    opacity: 0.8;
+    font-optical-sizing: auto;
+}
+#template p {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#template a {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+#template a:hover {
+    background-color: rgb(231, 150, 0);
+}
+#template a:active {
+    background-color: rgb(192, 151, 75);
+}
+#template .signin {
+    background-color: orangered;
+    background: linear-gradient(90deg, rgba(241,122,9,1) 1%, rgba(242,74,2,1) 51%, rgba(242,43,8,1) 100%);
+}
+/* win sec */
+
+.win {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* container card */
+
+.winrow {
+    background-color: white;
+    box-shadow: 0px 2px 1px rgb(255, 182, 24);
+}
+.winrow .card {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.winrow .card-title {
+    font-size: 17px;
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.winrow .card-text {
+    font-size: 15px;
+}
+.winrow .card-img-top {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(255, 182, 24);
+    border-radius: 100%;
+}
+
+/* about biryani */
+.cons {
+    padding: 20px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+
+.aboutbiryani {
+    padding: 10px 110px;
+}
+
+
+.aboutbiryani img{
+    width: 600px;
+    float: left;
+}
+.aboutbiryani .aboutbody {
+    font-size: 15px;
+    text-align: center;
+}
+.aboutbiryani h4 {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+}
+
+
+/* app logo */
+
+
+.apptext p, .apptext h3, .apptext img {
+    padding: 10px 5px;
+}
+
+.appimg h1 {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.apptext p {
+    font-size: 18px;
+}
+.apptext h3 {
+    font-size: 17px;
+    font-weight: 570;
+
+}
+
+/* footer */
+
+.footer {
+    background: #930035 !important;
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    padding: 20px 60px 1px 60px;
+    text-transform: capitalize;
+}
+.footer .bbklink a{
+    text-decoration: none;
+    color: white;
+}
+.footer .bbklinka a:hover{
+    text-decoration: underline;
+    color: rgb(223, 208, 208);
+}
+
+.footer .bbklinka{
+    padding: 10px 0px;
+}
+.footer .address iframe {
+    width: 200px;
+    height: 110px;
+}
+
+.footer .socialmedia {
+   text-align: center;
+}
+
+.footer .socialmedia a{
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.socialmedia p .fb {
+    color: rgb(0, 136, 247);
+}
+.socialmedia p .insta {
+    color: rgb(248, 212, 8);
+}
+.socialmedia p .linkdin {
+    color: white;
+}
+.socialmedia p .twitter {
+    color: rgb(62, 250, 5);
+}
+.socialmedia p .yt {
+    color: red;
+}
+.socialmedia p .tele {
+    color: rgb(0, 225, 255);
+}
+
+.footer .copyright {
+    color: #fae4ec;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+/* Home menu */
+
+.homemenu .card{
+    border: none;
+    align-items: center;
+}
+.homemenu h2 {
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 700;
+    padding: 25px 0px 30px 0px;
+}
+.homemenu h4 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.homemenu a {
+    font-family: 'Amaranth', sans-serif;
+    background-color: orangered;
+    color: white;
+    font-size: 17px;
+    box-shadow: 1px 1px 3px rgb(199, 91, 2);
+}
+.homemenu a:hover {
+    background-color: rgb(204, 58, 5);
+    color: white;
+}
+.homemenu a:active {
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+.homemenu img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.homemenu img:hover {
+    transition: 0.4s;
+    transform: scale(1.1,1.1);
+}
+
+@media screen and (max-width:800px)
+{
+    .aboutbiryani {
+        padding: 10px 0px;
+    }
+    #template {
+        width: 100%;
+    }
+    #template h2 {
+        font-size: 35px;
+        text-align: center; 
+    }
+    #template p {
+        font-size: 18px;
+    }
+    
+    #template a {
+        font-size: 15px;
+    }
+    #template .signin {
+        background-color: orange;
+    }
+    .footer {
+        padding: 10px 20px;
+    }
+    .footer .socialmedia a{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .homemenu a {
+        font-size: 15px;
+    }
+    .homemenu img:hover {
+        transition: none;
+        transform: none;
+    }
+    .homemenu h4 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .footer .address iframe {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+
+
+/* categories */
+.categories .flexcat {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    
+}
+.categories {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 10px 3px #999;
+}
+.categories h3 {
+    font-weight: 800;
+    font-size: 35px;
+}
+.categories .category{
+    width: 170px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    align-items: center;
+    transition: 0.2s;
+}
+.categories a {
+    text-decoration: none;
+    color: rgb(63, 59, 59);
+    
+}
+.categories h6 {
+    font-family: "Alata", sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.categories img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+.categories .category:hover {
+    transform: scale(1.05,1.05);
+    transition: 0.2s;
+}
+
+/* hyderabati */
+
+@media screen and (max-width:700px) {
+    .hyderabati .card {
+        width: 335px !important;
+        margin-left: 0px;
+    }
+    .categories .category:hover {
+        transform: none !important;
+    }
+    .categories .flexcat {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    .categories .category{
+        
+        width: 100px;
+        box-shadow: 5px 5px 20px 5px rgb(226, 225, 224) !important;
+        border-radius: 5px;
+        padding: 10px;
+        height:135px;
+        transition: 0.2s;
+    }
+    .categories h6 {
+        font-family: "Alata", sans-serif;
+        font-weight: 800 !important;
+        padding-top: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .categories img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    .categories {
+        background-color: rgb(250, 250, 243) !important;
+        box-shadow: none !important;
+    }
+}
+
+.hyderabati2 {
+    background-color: white;
+}
+.hyderabati .headb {
+    padding-top: 45px;
+    font-weight: 500;
+}
+.hyderabati .card {
+    width: 370px;
+    box-shadow: 1px 1px 10px 2px #c2b4b494;
+    border: none !important;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.hyderabati .card-body h1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hyderabati .card-body{
+   padding: 10px;
+   padding-top: 15px; 
+}
+.hyderabati .card-body h2 {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+.hyderabati .card-body p {
+    padding:0px 15px;
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: justify;
+}
+.hyderabati .card-text {
+    font-weight: 600;
+    font-size: 13px !important;
+}
+.hyderabati .card-body a {
+    width: 100%;
+    border: 1px rgb(255, 30, 0) solid !important;
+    background-color: rgb(250, 95, 6);
+}
+
+
+@media screen and (min-width:750px) {
+    .hyderabati .card img {
+        transition: 0.5s;
+    }
+    .hyderabati .card img:hover {
+        transform: scale(1.11,1.11);
+        transition: 0.5s;
+       
+    }
+    
+}
+
+/* our vision */
+
+
+.aboutus img {
+    position: absolute;
+    right: 270px;
+    height: 35rem;
+    margin-top: 80px;
+    opacity: 0.3;
+}
+.aboutus p {
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 2;
+    text-align: justify;
+    margin-right: 40px !important;
+}
+
+/* introducing */
+.intro h2 {
+    padding: 20px;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    background-color: rgb(255, 208, 0);
+    height: 400px;
+    font-weight: 500;
+    position: relative;
+}
+
+.introsec {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 3px #aca7a7;
+    position: absolute;
+    top: 79rem;
+    left: 150px;
+    z-index: 2;
+    width: 78%;
+    padding: 0px;
+}
+.introflex {
+    display: flex;
+    flex-flow: row;
+    gap: 40px 10px;
+}
+.introflex .introbody {
+    flex-basis: 110%;
+}
+.introflex .introbody1 {
+    padding-top: 20px;
+}
+.introflex img {
+    width: 45rem !important;
+}
+.introflex h3 {
+    padding:10px 40px 5px 40px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Amaranth", sans-serif;
+}
+.introflex p {
+    padding:5px 40px;
+    font-size: 14px;
+    text-align: justify;
+    opacity: 0.9;
+}
+.introflex .aboutthebiryani {
+    padding-top: 10px;
+}
+
+.aboutappbiryani45 {
+    margin-top: 78rem;
+}
+@media screen and (max-width:700px) {
+    .aboutus img {
+        position: absolute;
+        position: fixed;
+        right: 0px;
+        height: 240px;
+        margin-top: 70px;
+        opacity: 0.25;
+        z-index: -1;
+    }
+    .applogo45 {
+        z-index: 2 !important;
+        opacity: 2;
+    }
+    .aboutus p {
+        font-weight: 500;
+        font-size: 12px;
+        text-align: justify;
+        margin-right: 0px !important;
+    }
+
+    .intro h2 {
+        padding: 10px;
+        text-align: center;
+        font-family: "Righteous", sans-serif;
+        background-color: white !important;
+        box-shadow: 1px 1px 10px 3px #bbb8b8;
+        height: 40px;
+        font-weight: 500;
+        position: none !important;
+    }
+    .introsec {
+        background-color: white;
+        border-radius: 2px;
+        box-shadow: 2px 2px 10px 2px #c7c1c1;
+        position: relative !important;
+        top: 0px !important;
+        left: 0px;
+        z-index: 2;
+        width: 90%;
+        padding: 0px;
+    }
+    .introflex {
+        display: flex;
+        flex-flow: column;
+        gap: 40px 10px;
+    }
+    .introflex .introbody {
+        flex-basis: 110%;
+    }
+    .introflex .introbody1 {
+        padding-top: 20px;
+    }
+    .introflex img {
+        width: 45rem !important;
+    }
+    .introflex h3 {
+        padding:10px 20px 5px 10px;
+        text-align: left;
+        font-weight: 600;
+        font-family: "Amaranth", sans-serif;
+    }
+    .introflex p {
+        padding:5px 20px;
+        font-size: 14px;
+        text-align: justify;
+        opacity: 0.9;
+    }
+    .introsec .ruler {
+        border-bottom: 1px solid orangered;
+        margin: 5px;
+        padding: 20px;
+    }
+    .introflex .aboutthebiryani {
+        padding-top: 0px !important;
+    }
+    
+    .aboutappbiryani45 {
+        margin-top: 0 !important;
+        background-color: white !important;
+        z-index: 2 !important;
+    }
+    .biryanicontact .card iframe {
+        width: 320px !important;
+        height: 200px !important;
+        box-shadow: 1px 1px 10px 2px #cac6c6;
+    }
+    .biryanicontact .boxdiv {
+        border-bottom: none !important;
+    }
+}
+
+
+/* biryanicontact */
+
+.biryanicontact .card {
+    margin-top: 30px;
+    background-color: rgb(250, 250, 243);
+    border: none;
+}
+.biryanicontact .card h4 {
+    font-family: "Amaranth", sans-serif;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+.biryanicontact .card p {
+    font-size: 16px;
+    padding: 0px 10px;
+    font-weight: 100;
+}
+.biryanicontact .card p a {
+    text-decoration: none !important;
+}
+.biryanicontact .cc-no a{
+    color: rgb(236, 132, 13)!important;
+    font-size: 20px;
+    font-weight: 600;
+}
+.biryanicontact .card iframe {
+    width: 500px;
+}
+.biryanicontact .card .sky {
+    text-align: center;
+}
+.biryanicontact .boxdiv {
+    border-bottom: 1px solid orangered;
+}

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biryani</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Niconne&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Niconne&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="biryanistyle.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#"><img src="logo/bbklogo.png" alt="" height="57px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbarc" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourvision.html">Our vision</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex ps-2">
+              <button class="btn signin" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Signin</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="index.html">
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">User Name:</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Password:</label>
+            <input type="password" class="form-control">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+      
+
+      <!-- carousel -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade mt-0" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="logo/carousel1.jpg" data-bs-interval="5000" class="d-block mx-auto img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="logo/carousel2.png" data-bs-interval="5000" class="d-block mx-auto img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="logo/carousel3.jpg" data-bs-interval="5000" class="d-block mx-auto img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="logo/carousel4.jpg" data-bs-interval="5000" class="d-block mx-auto img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="logo/carousel5.jpg" data-bs-interval="5000" class="d-block mx-auto img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="logo/carousel6.png" data-bs-interval="5000" class="d-block mx-auto img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+
+      <!-- offers -->
+
+      <div class="mt-5 categories container">
+        <h3 class="text-center">Categories</h3>
+        <div class="flexcat mt-4">
+            <div class="category">
+              <a href="#hycat"><img src="Menuimages/hydrabati.jpeg" alt="" class="img-fluid d-flex mx-auto">
+              <h6>Hyderabadi Biryani</h6> </a>
+            </div>
+            <div class="category">
+              <a href="#lkcat"><img src="Menuimages/lucknowi-ndd.jpg" alt="" class="img-fluid  d-flex mx-auto">
+              <h6>Lucknowi Biryani</h6></a>
+            </div>
+            <div class="category">
+              <a href="#kocat"><img src="Menuimages/kolkata-cat-img.jpg" alt="" class="img-fluid d-flex mx-auto">
+              <h6>Kolkata Biryani</h6> </a>
+            </div>
+            <div class="category">
+              <a href="#kbcat"><img src="Menuimages/kebab.jpg" alt="" class="img-fluid  d-flex mx-auto">
+              <h6>Kebabs</h6></a>
+            </div>
+            <div class="category">
+              <a href="#hdcat"><img src="Menuimages/Healthy-dessert.jpg" alt="" class="img-fluid d-flex mx-auto">
+              <h6>Healthy Desserts</h6> </a>
+            </div>
+            <div class="category">
+              <a href="#korcat"><img src="Menuimages/korma.jpg" alt="" class="img-fluid  d-flex mx-auto">
+              <h6>Korma and Curries</h6></a>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- Hydrabati Biryani -->
+
+   <div class="hyderabati2"> 
+
+  <div class="container  mt-5 hyderabati">
+    <div id="hycat"></div> <br>
+        <h1 class="mt-1 headb">Hyderabadi Biryani</h1>
+  <div class="row mt-4">
+          <div class="col-md-4 col-lg-4 col-12 mt-3">
+            <div class="card">
+              <img src="categories/hyderabati_chicken.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+              <div class="card-body">
+             <h2 class="card-title">Chicken Hyderabadi Dum Biryani [1/2kg] </h2>
+             <h1>₹499</h1>
+              <p>[serves 1-2] Fresh Chicken are 
+                marinated in a mixture of freshly
+                 ground BBK spices & layered with
+                  long grain basmati rice in the 
+                  handi slow-cooked in the sealed handi</p>
+              <p class="card-text" >9330 People order in last week</p>  
+              <a href="" class="btn btn-danger">Add +</a>   </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mt-3">
+            <div class="card">
+              <img src="categories/hyderabati_panner.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+              <div class="card-body">
+             <h2 class="card-title">Panner Hyderabadi Dum Biryani [1kg] </h2>
+             <h1>₹699</h1>
+              <p>[serves 1-2] Fresh Chicken are 
+                marinated in a mixture of freshly
+                 ground BBK spices & layered with
+                  long grain basmati rice in the 
+                  handi slow-cooked in the sealed handi</p>
+              <p class="card-text" >1038 People order in last week</p>  
+              <a href="" class="btn btn-danger">Add +</a>   </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mt-3">
+            <div class="card">
+              <img src="categories/hyderabati_egg.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+              <div class="card-body">
+             <h2 class="card-title">Egg Hyderabadi Dum Biryani [1kg] </h2>
+             <h1>₹599</h1>
+              <p>[serves 1-2] Fresh Chicken are 
+                marinated in a mixture of freshly
+                 ground BBK spices & layered with
+                  long grain basmati rice in the 
+                  handi slow-cooked in the sealed handi</p>
+              <p class="card-text" >2647 People order in last week</p>  
+              <a href="" class="btn btn-danger">Add +</a>   </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mt-3">
+            <div class="card">
+              <img src="categories/hyderabati_veg.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+              <div class="card-body">
+             <h2 class="card-title">veg Hyderabadi Biryani [1/2kg] </h2>
+             <h1>₹399</h1>
+              <p>[serves 1-2] Fresh Chicken are 
+                marinated in a mixture of freshly
+                 ground BBK spices & layered with
+                  long grain basmati rice in the 
+                  handi slow-cooked in the sealed handi</p>
+              <p class="card-text" >8263 People order in last week</p>  
+              <a href="" class="btn btn-danger">Add +</a>   </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mt-3">
+            <div class="card">
+              <img src="categories/Mutton-malamaal-img.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+              <div class="card-body">
+             <h2 class="card-title">Mutton Malamaal Biryani [1/2kg] </h2>
+             <h1>₹745</h1>
+              <p>[serves 1-2] Fresh Chicken are 
+                marinated in a mixture of freshly
+                 ground BBK spices & layered with
+                  long grain basmati rice in the 
+                  handi slow-cooked in the sealed handi</p>
+              <p class="card-text" >4583 People order in last week</p>  
+              <a href="" class="btn btn-danger">Add +</a>   </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-12 mt-3">
+            <div class="card">
+              <img src="categories/hyderabati_kathal.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+              <div class="card-body">
+             <h2 class="card-title">Kathal Hyderabadi Dum Biryani [1/2kg] </h2>
+             <h1>₹419</h1>
+              <p>[serves 1-2] Fresh Chicken are 
+                marinated in a mixture of freshly
+                 ground BBK spices & layered with
+                  long grain basmati rice in the 
+                  handi slow-cooked in the sealed handi</p>
+              <p class="card-text" >1713 People order in last week</p>  
+              <a href="" class="btn btn-danger">Add +</a>   </div>
+            </div>
+          </div>
+</div> 
+
+<div id="lkcat"></div> <br>
+<h1 class="mt-3 headb">Lucknowi Biryani</h1>
+<div class="row mt-4">
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/lucknow_chicken.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Chicken Lucknowi Biryani [1/2kg] </h2>
+           <h1>₹499</h1>
+            <p>[serves 1-2] Fresh Chicken are 
+              marinated in a mixture of freshly
+               ground BBK spices & layered with
+                long grain basmati rice in the 
+                handi slow-cooked in the sealed handi</p>
+            <p class="card-text" >9330 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/lucknowimutton-biryani.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Mutton Lucknowi Biryani [1/2kg] </h2>
+           <h1>₹715</h1>
+            <p>[serves 1-2] Fresh Chicken are 
+              marinated in a mixture of freshly
+               ground BBK spices & layered with
+                long grain basmati rice in the 
+                handi slow-cooked in the sealed handi</p>
+            <p class="card-text" >1038 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/lucknowmurg.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Murg Dum Biryani [1/2kg] </h2>
+           <h1>₹669</h1>
+            <p>[serves 1-2] Fresh Chicken are 
+              marinated in a mixture of freshly
+               ground BBK spices & layered with
+                long grain basmati rice in the 
+                handi slow-cooked in the sealed handi</p>
+            <p class="card-text" >553 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+</div> 
+
+<div id="kocat"></div> <br>
+<h1 class="mt-3 headb">Kolkata Biryani</h1>
+<div class="row mt-4">
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kolkatachicken.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Kolkata chicken Biryani [1/2kg] </h2>
+           <h1>₹495</h1>
+            <p>[serves 1-2] Fresh Chicken are 
+              marinated in a mixture of freshly
+               ground BBK spices & layered with
+                long grain basmati rice in the 
+                handi slow-cooked in the sealed handi</p>
+            <p class="card-text" >9545 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kolkatamutton.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Kolkata Mutton Biryani [1/2kg] </h2>
+           <h1>₹695</h1>
+            <p>[serves 1-2] Fresh Chicken are 
+              marinated in a mixture of freshly
+               ground BBK spices & layered with
+                long grain basmati rice in the 
+                handi slow-cooked in the sealed handi</p>
+            <p class="card-text" >8432 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kolkataprawns.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Prawns 65 Biryani [1/2kg] </h2>
+           <h1>₹645</h1>
+            <p>[serves 1-2] Fresh Chicken are 
+              marinated in a mixture of freshly
+               ground BBK spices & layered with
+                long grain basmati rice in the 
+                handi slow-cooked in the sealed handi</p>
+            <p class="card-text" >943 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+</div> 
+
+<div id="kbcat"></div> <br>
+<h1 class="mt-3 headb">Kebabs</h1>
+<div class="row mt-4">
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/VegGaloutiKebab.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Veg Galouti Kebab[6pcs] </h2>
+           <h1>₹299</h1>
+            <p>A Indian specialty made by maintaing the finely ground fresh vegetables and a mix of exotic spices served with laccha pyaaz and mint chutney</p>
+            <p class="card-text" >724 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kebabchikenseek.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Chicken seekh Kebab[250gms] </h2>
+           <h1>₹379</h1>
+            <p>A Indian specialty made by maintaing the finely ground fresh Curries and a mix of exotic spices served with laccha pyaaz and mint chutney</p>
+            <p class="card-text" >823 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kebabcrispycorn.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Crispy Corn stick[6pcs] </h2>
+           <h1>₹299</h1>
+            <p>A Indian specialty made by maintaing the finely ground fresh Curries and a mix of exotic spices served with laccha pyaaz and mint chutney</p>
+            <p class="card-text" >714 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kebabchicken65.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Chicken 65[250gms] </h2>
+           <h1>₹399</h1>
+            <p>A Indian specialty made by maintaing the finely ground fresh Curries and a mix of exotic spices served with laccha pyaaz and mint chutney</p>
+            <p class="card-text" >2841 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kebabtantoori.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Tandoori chicken full[8pcs] </h2>
+           <h1>₹679</h1>
+            <p>A Indian specialty made by maintaing the finely ground fresh Curries and a mix of exotic spices served with laccha pyaaz and mint chutney</p>
+            <p class="card-text" >1982 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>       
+</div>
+
+<div id="hdcat"></div> <br>
+<h1 class="mt-3 headb">Healthy Desserts</h1>
+<div class="row mt-4">
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/dessertgajarkaalwa.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Gajar Ka Halwa</h2>
+           <h1>₹199</h1>
+           <p>Smooth and sweety flavourable Dessert.Must try accompaniment for all Biryani lovers</p>
+           <p class="card-text" >8711 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/Gulab Jamun with rabri.png" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Gulab Jamun with rabri </h2>
+           <h1>₹175</h1>
+           <p>Smooth and sweety flavourable Dessert.Must try accompaniment for all Biryani lovers</p>
+            <p class="card-text" >2151 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/dessertphirni.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Matka Phirni[500gms] </h2>
+           <h1>₹310</h1>
+            <p>Smooth and sweety flavourable Dessert.Must try accompaniment for all Biryani lovers</p>
+            <p class="card-text" >1411 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+</div>
+
+<div id="korcat"></div> <br>
+<h1 class="mt-3 headb">Korma and Curries</h1>
+<div class="row mt-4">
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kormadalmakkani.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Dal Makhani[400gms]</h2>
+           <h1>₹395</h1>
+           <p>A Traditional flavourful, all time favourite korma & curries.
+            Simply the best choice of indian bread.
+           </p>
+           <p class="card-text" >914 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/kormachicken.jpeg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Chicken Korma[500gms]</h2>
+           <h1>₹490</h1>
+           <p>A Traditional flavourful, all time favourite korma & curries.
+            Simply the best choice of indian bread.
+           </p>
+            <p class="card-text" >844 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/masala-curry (1).jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Masala Curry</h2>
+           <h1>₹75</h1>
+           <p>A Traditional flavourful, all time favourite korma & curries.
+            Simply the best choice of indian bread.
+           </p>
+            <p class="card-text" >2491 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12 mt-3">
+          <div class="card">
+            <img src="categories/korma-nihari-dum-img.jpg" alt="" class="card-img-top img-fluid"  width="400px" >
+            <div class="card-body">
+           <h2 class="card-title">Dum Nihari Gosht[500gms] </h2>
+           <h1>₹620</h1>
+           <p>A Traditional flavourful, all time favourite korma & curries.
+            Simply the best choice of indian bread.
+           </p>
+            <p class="card-text" >1521 People order in last week</p>  
+            <a href="" class="btn btn-danger">Add +</a>   </div>
+          </div>
+        </div>
+</div>
+
+
+
+</div>
+
+<br><br>
+</div>  
+
+<!-- Footer -->
+
+<div class="container-fluid footer">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-6">
+      <div class="bbklink">
+        <h3>Biryani By Kilo</h3>
+        <div class="bbklinka">
+        <a href=""><p>our vision</p></a>
+        <a href=""><p>media</p></a>
+        <a href=""><p>loyalty</p></a>
+        <a href=""><p>contact us</p></a>
+        <a href=""><p>order online</p></a>
+        <a href=""><p>sponsor a biriyani</p></a> </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-6">
+      <div class="address">
+        <h3>Address</h3>
+        <p>A 20, <br>Ground Floor, <br>Rajouri Garden, <br>
+          Andheri <br>
+          Mumbai-83540552 </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30158.900556189714!2d72.84913417427005!3d19.11368405444226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c83c05b7fc89%3A0xbe87eb057f3aafda!2sAndheri%2C%20Maharashtra%20400053!5e0!3m2!1sen!2sin!4v1711885236867!5m2!1sen!2sin" width="600" height="450" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12">
+      <div class="socialmedia">
+        <h3>Follow Us on</h3>
+        <p>
+          <a href="https://www.facebook.com/khiladi.kishoth.3"><i class="fa-brands fa-facebook fb"></i></a>
+          <a href="https://www.instagram.com/khiladiking45/"><i class="fa-brands fa-instagram insta"></i></a>
+          <a href="https://www.youtube.com/@khiladiking45"><i class="fa-brands fa-youtube yt"></i> </a><br>
+          <a href="https://www.linkedin.com/in/kishoth-kumar-7285b62b8/"><i class="fa-brands fa-linkedin linkdin"></i></a>
+          <a href="https://www.youtube.com/@khiladiking45"><i class="fa-brands fa-x-twitter twitter"></i></a>
+          <a href="http://t.me/KhiladiKing45"><i class="fa-brands fa-telegram tele"></i> </a> 
+      </p>
+      </div>
+    </div>
+    <div class="copyright mt-4">
+      <p> Copyright © 2024 Sky Gate Hospitality PVT. LTD. All Rights Reserved. | Terms & Conditions</p>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
