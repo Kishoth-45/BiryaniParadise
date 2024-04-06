@@ -83,7 +83,6 @@ section
     background: linear-gradient(90deg, rgba(241,122,9,1) 1%, rgba(242,74,2,1) 51%, rgba(242,43,8,1) 100%);
 }
 
-
 /* shortcut */
 .shortcut {
     display: flex;
@@ -328,19 +327,30 @@ section
     .aboutbiryani {
         padding: 10px 0px;
     }
+    section
+    {
+        margin-top: 70px;
+        width: 100%;
+        min-height: 250px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
     #template {
         width: 100%;
+        height: 40px !important;
     }
     #template h2 {
         font-size: 35px !important;
         text-align: center; 
     }
     #template p {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     #template a {
-        font-size: 15px;
+        margin-top: -10px;
+        font-size: 14px;
     }
     #template .signin {
         background-color: orange;
@@ -474,8 +484,12 @@ section
 
 @media screen and (max-width:768px) {
     .hyderabati .card {
-        width: 335px !important;
-        margin-left: 0px;
+        margin-left: 10px !important;
+    }
+    .hyderabati .headb {
+        padding-top: 45px;
+        font-weight: bolder !important;
+        margin-left: 20px !important;
     }
     .categories .category:hover {
         transform: none !important;
@@ -584,7 +598,7 @@ section
     right: 270px;
     height: 35rem;
     margin-top: 80px;
-    opacity: 0.3;
+    opacity: 0.25;
 }
 .aboutus p {
     font-size: 15px;
@@ -656,7 +670,7 @@ section
         right: 0px;
         height: 240px;
         margin-top: 70px;
-        opacity: 0.25;
+        opacity: 0.3 !important;
         z-index: -1;
     }
     .applogo45 {
@@ -781,15 +795,28 @@ section
 
 
 @media screen and (max-width:1250px) {
+    .aboutus img {
+        position: absolute;
+        position: fixed;
+        right: 0px;
+        height: 240px;
+        margin-top: 70px;
+        opacity: 0.01;
+        z-index: -1;
+    }
     .hyderabati .card {
-        width: 285px !important;
+        width: 315px;
+        margin-left: 40px;
+    }
+    .hyderabati .headb {
+        padding-top: 45px;
+        font-weight: 500;
         margin-left: 40px;
     }
     .categories .flexcat {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        
     }
     .biryanicontact .card iframe {
         width: 350px;
@@ -872,5 +899,13 @@ section
         font-family: "Righteous", sans-serif;
         opacity: 0.8;
         font-optical-sizing: auto;
+    }
+    section
+     {
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
