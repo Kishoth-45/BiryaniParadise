@@ -82,6 +82,58 @@ section
     background-color: orangered;
     background: linear-gradient(90deg, rgba(241,122,9,1) 1%, rgba(242,74,2,1) 51%, rgba(242,43,8,1) 100%);
 }
+
+
+/* shortcut */
+.shortcut {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.shortcutmenu {
+    width: 250px;
+    background: url(logo/About-The\ Biryain.png);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+.shortcutvision {
+    width: 250px;
+    background: url(Menuimages/matchday.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+.shortcutcontact {
+    width: 250px;
+    background: url(logo/indexb2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+.shortcut div h3 {
+    margin-left: 130px;
+    width: 120px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 15px;
+    border: none;
+    background: linear-gradient(90deg, rgb(253, 61, 2) 1%, rgb(248, 50, 1)51%, rgb(255, 40, 2) 100%);
+}
+.shortcut div {
+    /* border-radius: 0px 43px 0px 0px; */
+    box-shadow: 5px 5px 15px 3px rgb(145, 91, 55);
+    border-radius: 3px;
+    text-align: center;
+    transition: 0.4s;
+}
+.shortcut div:hover {
+    transition: 0.3s;
+    transform: scale(1.06,1.06);
+}
+
 /* win sec */
 
 .win {
@@ -271,7 +323,7 @@ section
     transform: scale(1.1,1.1);
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:768px)
 {
     .aboutbiryani {
         padding: 10px 0px;
@@ -280,7 +332,7 @@ section
         width: 100%;
     }
     #template h2 {
-        font-size: 35px;
+        font-size: 35px !important;
         text-align: center; 
     }
     #template p {
@@ -314,6 +366,59 @@ section
     .footer .address iframe {
         width: 150px;
         height: 100px;
+    }
+
+
+    .shortcut {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly !important;
+        gap: 10px;
+    }
+    .shortcutmenu {
+        width: 100px;
+        background: linear-gradient(rgba(20, 9, 1, 0.144),rgba(29, 10, 2, 0.445)), url(logo/About-The\ Biryain.png);
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+    }
+    .shortcutvision {
+        width: 100px;
+        background:linear-gradient(rgba(20, 9, 1, 0.144),rgba(29, 10, 2, 0.445)), url(Menuimages/matchday.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+    }
+    .shortcutcontact {
+        width: 100px;
+        background: linear-gradient(rgba(20, 9, 1, 0.144),rgba(29, 10, 2, 0.445)), url(logo/indexb2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+    }
+    .shortcut div h3 {
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 80px;
+        color: rgb(255, 254, 254);
+        font-weight: 600;
+        border-radius: 0px 0px 0px 0px;
+        font-size: 15px;
+        border: none;
+        background: none !important;
+        font-family: "Amaranth", sans-serif;
+        font-style: italic;
+    }
+    .shortcut div {
+        /* border-radius: 0px 43px 0px 0px; */
+        box-shadow: 3px 3px 12px 3px rgb(204, 202, 200);
+        border-radius: 3px;
+        text-align: center;
+        transition: 0.4s;
+    }
+    .shortcut div:hover {
+        transition: 0.3s;
+        transform: none !important;
     }
 }
 
@@ -367,7 +472,7 @@ section
 
 /* hyderabati */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     .hyderabati .card {
         width: 335px !important;
         margin-left: 0px;
@@ -381,6 +486,9 @@ section
         gap: 10px;
         justify-content: center;
         
+    }
+    .categories h3 {
+        font-size: 25px !important;
     }
     .categories .category{
         
@@ -456,7 +564,7 @@ section
 }
 
 
-@media screen and (min-width:750px) {
+@media screen and (min-width:768px) {
     .hyderabati .card img {
         transition: 0.5s;
     }
@@ -541,7 +649,7 @@ section
 .aboutappbiryani45 {
     margin-top: 78rem;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     .aboutus img {
         position: absolute;
         position: fixed;
@@ -667,4 +775,102 @@ section
 }
 .biryanicontact .boxdiv {
     border-bottom: 1px solid orangered;
+}
+
+
+
+
+@media screen and (max-width:1250px) {
+    .hyderabati .card {
+        width: 285px !important;
+        margin-left: 40px;
+    }
+    .categories .flexcat {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        
+    }
+    .biryanicontact .card iframe {
+        width: 350px;
+        height: 350px;
+    }
+    .aboutbiryani {
+        padding: 10px 10px;
+    }
+    .aboutbiryani img{
+        float: none !important;
+    }
+    .intro h2 {
+        padding: 10px;
+        text-align: center;
+        font-family: "Righteous", sans-serif;
+        background-color: white !important;
+        box-shadow: 1px 1px 10px 3px #bbb8b8;
+        height: 40px;
+        font-weight: 500;
+        position: none !important;
+    }
+    .introsec {
+        background-color: white;
+        border-radius: 2px;
+        box-shadow: 2px 2px 10px 2px #c7c1c1;
+        position: relative !important;
+        top: 0px !important;
+        left: 0px;
+        z-index: 2;
+        width: 90%;
+        padding: 0px;
+    }
+    .introflex {
+        display: flex;
+        flex-flow: column;
+        gap: 40px 10px;
+    }
+    .introflex .introbody {
+        flex-basis: 110%;
+    }
+    .introflex .introbody1 {
+        padding-top: 20px;
+    }
+    .introflex img {
+        width: 45rem !important;
+    }
+    .introflex h3 {
+        padding:10px 20px 5px 10px;
+        text-align: left;
+        font-weight: 600;
+        font-family: "Amaranth", sans-serif;
+    }
+    .introflex p {
+        padding:5px 20px;
+        font-size: 14px;
+        text-align: justify;
+        opacity: 0.9;
+    }
+    .introsec .ruler {
+        border-bottom: 1px solid orangered;
+        margin: 5px;
+        padding: 20px;
+    }
+    .introflex .aboutthebiryani {
+        padding-top: 0px !important;
+    }
+    
+    .aboutappbiryani45 {
+        margin-top: 0 !important;
+        background-color: white !important;
+        z-index: 2 !important;
+    }
+
+
+    #template h2 {
+        font-size: 80px;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 3px;
+        font-family: "Righteous", sans-serif;
+        opacity: 0.8;
+        font-optical-sizing: auto;
+    }
 }
